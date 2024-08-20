@@ -1,9 +1,0 @@
-{
-  "_hash": "44C1Skuqyi",
-  "project": {
-    "rootDir": "/srv/http/sentry-nuxt-bug"
-  },
-  "versions": {
-    "nuxt": "3.12.4"
-  }
-}
