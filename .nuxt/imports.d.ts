@@ -31,9 +31,6 @@ export { injectHead, useHead, useSeoMeta, useHeadSafe, useServerHead, useServerS
 export { useAsyncStoryblok } from '../node_modules/.pnpm/@storyblok+nuxt@6.0.10/node_modules/@storyblok/nuxt/dist/runtime/composables/useAsyncStoryblok';
 export { useNuxtDevTools } from '../node_modules/.pnpm/@nuxt+devtools@1.3.9_rollup@4.20.0_vite@5.4.0_@types+node@22.2.0_sass@1.77.8_terser@5.31.5_/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools';
 export { defineStore, acceptHMRUpdate, usePinia, storeToRefs } from '../node_modules/.pnpm/@pinia+nuxt@0.5.3_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@pinia/nuxt/dist/runtime/composables';
-export { gql } from 'graphql-tag';
-export { useApollo, useAsyncQuery, useLazyAsyncQuery, useAsyncMutation } from '../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables';
-export { useQuery, useLazyQuery, useMutation, useSubscription, useApolloClient, useQueryLoading, useMutationLoading, useSubscriptionLoading, useGlobalQueryLoading, useGlobalMutationLoading, useGlobalSubscriptionLoading } from '@vue/apollo-composable';
 export { useDate } from 'vuetify/labs/date';
 export { useLocale, useDefaults, useDisplay, useLayout, useRtl, useTheme } from 'vuetify';
 export { useStoryblok, useStoryblokApi, useStoryblokBridge, renderRichText, RichTextSchema } from '@storyblok/vue';

@@ -34,7 +34,6 @@ declare global {
   const getCurrentInstance: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['getCurrentInstance']
   const getCurrentScope: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['getCurrentScope']
   const getRouteRules: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/manifest')['getRouteRules']
-  const gql: typeof import('../../node_modules/.pnpm/graphql-tag@2.12.6_graphql@16.9.0/node_modules/graphql-tag/main')['gql']
   const h: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['h']
   const hasInjectionContext: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['hasInjectionContext']
   const inject: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['inject']
@@ -103,12 +102,8 @@ declare global {
   const unref: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['unref']
   const updateAppConfig: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/config')['updateAppConfig']
   const useAnalyticsPageEvent: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/script-stubs')['useAnalyticsPageEvent']
-  const useApollo: typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useApollo']
-  const useApolloClient: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useApolloClient']
   const useAppConfig: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/config')['useAppConfig']
   const useAsyncData: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/asyncData')['useAsyncData']
-  const useAsyncMutation: typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useAsyncMutation']
-  const useAsyncQuery: typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useAsyncQuery']
   const useAsyncStoryblok: typeof import('../../node_modules/.pnpm/@storyblok+nuxt@6.0.10/node_modules/@storyblok/nuxt/dist/runtime/composables/useAsyncStoryblok')['useAsyncStoryblok']
   const useAttrs: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['useAttrs']
   const useConsentScriptTrigger: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/script-stubs')['useConsentScriptTrigger']
@@ -121,31 +116,22 @@ declare global {
   const useElementScriptTrigger: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/script-stubs')['useElementScriptTrigger']
   const useError: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/error')['useError']
   const useFetch: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/fetch')['useFetch']
-  const useGlobalMutationLoading: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useGlobalMutationLoading']
-  const useGlobalQueryLoading: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useGlobalQueryLoading']
-  const useGlobalSubscriptionLoading: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useGlobalSubscriptionLoading']
   const useHead: typeof import('../../node_modules/.pnpm/@unhead+vue@1.9.16_vue@3.4.38/node_modules/@unhead/vue')['useHead']
   const useHeadSafe: typeof import('../../node_modules/.pnpm/@unhead+vue@1.9.16_vue@3.4.38/node_modules/@unhead/vue')['useHeadSafe']
   const useHydration: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/hydrate')['useHydration']
   const useId: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/id')['useId']
   const useLayout: typeof import('../../node_modules/.pnpm/vuetify@3.7.0_vite-plugin-vuetify@2.0.4_vue@3.4.38/node_modules/vuetify')['useLayout']
   const useLazyAsyncData: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/asyncData')['useLazyAsyncData']
-  const useLazyAsyncQuery: typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useLazyAsyncQuery']
   const useLazyFetch: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/fetch')['useLazyFetch']
-  const useLazyQuery: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useLazyQuery']
   const useLink: typeof import('../../node_modules/.pnpm/vue-router@4.4.3_vue@3.4.38/node_modules/vue-router')['useLink']
   const useLoadingIndicator: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/loading-indicator')['useLoadingIndicator']
   const useLocale: typeof import('../../node_modules/.pnpm/vuetify@3.7.0_vite-plugin-vuetify@2.0.4_vue@3.4.38/node_modules/vuetify')['useLocale']
   const useModel: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['useModel']
-  const useMutation: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useMutation']
-  const useMutationLoading: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useMutationLoading']
   const useNuxtApp: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/nuxt')['useNuxtApp']
   const useNuxtData: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']
   const useNuxtDevTools: typeof import('../../node_modules/.pnpm/@nuxt+devtools@1.3.9_rollup@4.20.0_vite@5.4.0_@types+node@22.2.0_sass@1.77.8_terser@5.31.5_/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']
   const usePinia: typeof import('../../node_modules/.pnpm/@pinia+nuxt@0.5.3_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']
   const usePreviewMode: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/preview')['usePreviewMode']
-  const useQuery: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useQuery']
-  const useQueryLoading: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useQueryLoading']
   const useRequestEvent: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/ssr')['useRequestEvent']
   const useRequestFetch: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/ssr')['useRequestFetch']
   const useRequestHeader: typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/ssr')['useRequestHeader']
@@ -186,8 +172,6 @@ declare global {
   const useStoryblok: typeof import('../../node_modules/.pnpm/@storyblok+vue@8.0.8/node_modules/@storyblok/vue')['useStoryblok']
   const useStoryblokApi: typeof import('../../node_modules/.pnpm/@storyblok+vue@8.0.8/node_modules/@storyblok/vue')['useStoryblokApi']
   const useStoryblokBridge: typeof import('../../node_modules/.pnpm/@storyblok+vue@8.0.8/node_modules/@storyblok/vue')['useStoryblokBridge']
-  const useSubscription: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useSubscription']
-  const useSubscriptionLoading: typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useSubscriptionLoading']
   const useTheme: typeof import('../../node_modules/.pnpm/vuetify@3.7.0_vite-plugin-vuetify@2.0.4_vue@3.4.38/node_modules/vuetify')['useTheme']
   const useTransitionState: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['useTransitionState']
   const watch: typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['watch']
@@ -244,7 +228,6 @@ declare module 'vue' {
     readonly getCurrentInstance: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['getCurrentInstance']>
     readonly getCurrentScope: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['getCurrentScope']>
     readonly getRouteRules: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/manifest')['getRouteRules']>
-    readonly gql: UnwrapRef<typeof import('../../node_modules/.pnpm/graphql-tag@2.12.6_graphql@16.9.0/node_modules/graphql-tag/main')['gql']>
     readonly h: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['h']>
     readonly hasInjectionContext: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['hasInjectionContext']>
     readonly inject: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['inject']>
@@ -313,12 +296,8 @@ declare module 'vue' {
     readonly unref: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['unref']>
     readonly updateAppConfig: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/config')['updateAppConfig']>
     readonly useAnalyticsPageEvent: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/script-stubs')['useAnalyticsPageEvent']>
-    readonly useApollo: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useApollo']>
-    readonly useApolloClient: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useApolloClient']>
     readonly useAppConfig: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/config')['useAppConfig']>
     readonly useAsyncData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/asyncData')['useAsyncData']>
-    readonly useAsyncMutation: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useAsyncMutation']>
-    readonly useAsyncQuery: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useAsyncQuery']>
     readonly useAsyncStoryblok: UnwrapRef<typeof import('../../node_modules/.pnpm/@storyblok+nuxt@6.0.10/node_modules/@storyblok/nuxt/dist/runtime/composables/useAsyncStoryblok')['useAsyncStoryblok']>
     readonly useAttrs: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['useAttrs']>
     readonly useConsentScriptTrigger: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/script-stubs')['useConsentScriptTrigger']>
@@ -331,31 +310,22 @@ declare module 'vue' {
     readonly useElementScriptTrigger: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/script-stubs')['useElementScriptTrigger']>
     readonly useError: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/error')['useError']>
     readonly useFetch: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/fetch')['useFetch']>
-    readonly useGlobalMutationLoading: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useGlobalMutationLoading']>
-    readonly useGlobalQueryLoading: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useGlobalQueryLoading']>
-    readonly useGlobalSubscriptionLoading: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useGlobalSubscriptionLoading']>
     readonly useHead: UnwrapRef<typeof import('../../node_modules/.pnpm/@unhead+vue@1.9.16_vue@3.4.38/node_modules/@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('../../node_modules/.pnpm/@unhead+vue@1.9.16_vue@3.4.38/node_modules/@unhead/vue')['useHeadSafe']>
     readonly useHydration: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/hydrate')['useHydration']>
     readonly useId: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/id')['useId']>
     readonly useLayout: UnwrapRef<typeof import('../../node_modules/.pnpm/vuetify@3.7.0_vite-plugin-vuetify@2.0.4_vue@3.4.38/node_modules/vuetify')['useLayout']>
     readonly useLazyAsyncData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/asyncData')['useLazyAsyncData']>
-    readonly useLazyAsyncQuery: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxtjs+apollo@file+..+@hc+apollo_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@nuxtjs/apollo/dist/runtime/composables')['useLazyAsyncQuery']>
     readonly useLazyFetch: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/fetch')['useLazyFetch']>
-    readonly useLazyQuery: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useLazyQuery']>
     readonly useLink: UnwrapRef<typeof import('../../node_modules/.pnpm/vue-router@4.4.3_vue@3.4.38/node_modules/vue-router')['useLink']>
     readonly useLoadingIndicator: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/loading-indicator')['useLoadingIndicator']>
     readonly useLocale: UnwrapRef<typeof import('../../node_modules/.pnpm/vuetify@3.7.0_vite-plugin-vuetify@2.0.4_vue@3.4.38/node_modules/vuetify')['useLocale']>
     readonly useModel: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['useModel']>
-    readonly useMutation: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useMutation']>
-    readonly useMutationLoading: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useMutationLoading']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/nuxt')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/asyncData')['useNuxtData']>
     readonly useNuxtDevTools: UnwrapRef<typeof import('../../node_modules/.pnpm/@nuxt+devtools@1.3.9_rollup@4.20.0_vite@5.4.0_@types+node@22.2.0_sass@1.77.8_terser@5.31.5_/node_modules/@nuxt/devtools/dist/runtime/use-nuxt-devtools')['useNuxtDevTools']>
     readonly usePinia: UnwrapRef<typeof import('../../node_modules/.pnpm/@pinia+nuxt@0.5.3_magicast@0.3.4_rollup@4.20.0_vue@3.4.38/node_modules/@pinia/nuxt/dist/runtime/composables')['usePinia']>
     readonly usePreviewMode: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/preview')['usePreviewMode']>
-    readonly useQuery: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useQuery']>
-    readonly useQueryLoading: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useQueryLoading']>
     readonly useRequestEvent: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/ssr')['useRequestEvent']>
     readonly useRequestFetch: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/ssr')['useRequestFetch']>
     readonly useRequestHeader: UnwrapRef<typeof import('../../node_modules/.pnpm/nuxt@3.12.4_@parcel+watcher@2.4.1_@types+node@22.2.0_encoding@0.1.13_ioredis@5.4.1_magicast@0_s6eobon7dodctnb23fvjqyitha/node_modules/nuxt/dist/app/composables/ssr')['useRequestHeader']>
@@ -396,8 +366,6 @@ declare module 'vue' {
     readonly useStoryblok: UnwrapRef<typeof import('../../node_modules/.pnpm/@storyblok+vue@8.0.8/node_modules/@storyblok/vue')['useStoryblok']>
     readonly useStoryblokApi: UnwrapRef<typeof import('../../node_modules/.pnpm/@storyblok+vue@8.0.8/node_modules/@storyblok/vue')['useStoryblokApi']>
     readonly useStoryblokBridge: UnwrapRef<typeof import('../../node_modules/.pnpm/@storyblok+vue@8.0.8/node_modules/@storyblok/vue')['useStoryblokBridge']>
-    readonly useSubscription: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useSubscription']>
-    readonly useSubscriptionLoading: UnwrapRef<typeof import('../../node_modules/.pnpm/@vue+apollo-composable@4.0.0-beta.11_@apollo+client@3.11.4_graphql-ws@5.16.0_graphql@16.9.0___h7oxgl3dce63ecmlt3adcdr5ki/node_modules/@vue/apollo-composable')['useSubscriptionLoading']>
     readonly useTheme: UnwrapRef<typeof import('../../node_modules/.pnpm/vuetify@3.7.0_vite-plugin-vuetify@2.0.4_vue@3.4.38/node_modules/vuetify')['useTheme']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['useTransitionState']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/.pnpm/vue@3.4.38/node_modules/vue')['watch']>

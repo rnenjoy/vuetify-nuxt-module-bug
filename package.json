@@ -13,9 +13,7 @@
     "start": "NODE_OPTIONS='--import ./public/instrument.server.mjs' NITRO_PORT=4000 NITRO_HOST=0.0.0.0 node .output/server/index.mjs"
   },
   "dependencies": {
-    "@hc/common": "link:../common",
     "@mdi/font": "^7.4.47",
-    "@nuxtjs/apollo": "file:/srv/http/@hc/apollo",
     "@pinia/nuxt": "^0.5.3",
     "@sentry/nuxt": "^8.26.0",
     "@storyblok/nuxt": "^6.0.10",

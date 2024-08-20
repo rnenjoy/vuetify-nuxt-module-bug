@@ -41,7 +41,6 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxt/devtools',
 		'@pinia/nuxt',
-		'@nuxtjs/apollo',
 		'vuetify-nuxt-module',
 		[
 			'@storyblok/nuxt',
