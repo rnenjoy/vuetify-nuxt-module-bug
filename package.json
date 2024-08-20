@@ -1,0 +1,45 @@
+{
+  "name": "hcnet-v2023",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HC NET V2023",
+  "author": "",
+  "scripts": {
+    "build": "NODE_OPTIONS='--import ./public/instrument.server.mjs' NITRO_PORT=4000 NITRO_HOST=0.0.0.0 nuxt build",
+    "dev": "NODE_OPTIONS='--import ./public/instrument.server.mjs' NITRO_PORT=3000 NITRO_HOST=0.0.0.0 NODE_TLS_REJECT_UNAUTHORIZED=0 nuxt dev",
+    "generate": "NODE_OPTIONS='--import ./public/instrument.server.mjs' nuxt generate",
+    "preview": "NODE_OPTIONS='--import ./public/instrument.server.mjs' nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "NODE_OPTIONS='--import ./public/instrument.server.mjs' NITRO_PORT=4000 NITRO_HOST=0.0.0.0 node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@hc/common": "link:../common",
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/apollo": "file:/srv/http/@hc/apollo",
+    "@pinia/nuxt": "^0.5.3",
+    "@sentry/nuxt": "^8.26.0",
+    "@storyblok/nuxt": "^6.0.10",
+    "@vueup/vue-quill": "latest",
+    "@vueuse/core": "^11.0.1",
+    "apexcharts": "^3.52.0",
+    "chart.js": "^4.4.3",
+    "downloadjs": "^1.4.7",
+    "isomorphic-fetch": "^3.0.0",
+    "js-cookie": "^3.0.5",
+    "markerjs2": "^2.32.1",
+    "mitt": "^3.0.1",
+    "nuxi": "^3.12.0",
+    "vue": "^3.4.38",
+    "vue-clip": "^1.0.0",
+    "vue-draggable-next": "^2.2.1",
+    "vue-router": "^4.4.3",
+    "vue3-apexcharts": "^1.5.3",
+    "vuetify-nuxt-module": "^0.17.1"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.12.4",
+    "sass": "^1.77.8"
+  },
+  "packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e"
+}
